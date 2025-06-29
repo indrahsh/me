@@ -1,0 +1,80 @@
+/* Profile */
+
+div#profile-wrapper {
+    display: grid;
+    place-items: center;
+}
+
+div#profile-wrapper>div#profile>img {
+    border-radius: 9999px;
+    width: 30.0rem;
+}
+
+@media (min-width: 600px) {
+
+    div#profile-wrapper>div#profile {
+        align-items: center;
+        display: flex;
+        gap: 5.0rem;
+        justify-content: right;
+        width: 100%;
+    }
+
+    div#profile-wrapper>div#profile>div.text-content p {
+        text-align: right;
+    }
+}
+
+@media (max-width: 600px) {
+
+    div#profile-wrapper>div#profile {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 5.0rem;
+        justify-content: left;
+    }
+
+    div#profile-wrapper>div#profile>div.text-content p {
+        text-align: center;
+    }
+}
+
+/* Work */
+
+ul#work {
+    display: flex;
+    justify-content: center;
+}
+
+ul#work>li:first-child {
+    padding-right: 2.5rem;
+}
+
+ul#work>li>img {
+    border-radius: 2.0rem;
+    width: 50.0rem;
+}
+
+ul#work>li>p {
+    text-align: center;
+}
+
+ul#work>li>ul.icon-links {
+    text-align: center;
+}
+
+/* Blog */
+
+ul#blog {
+    display: block;
+}
+
+ul#blog>li:first-child {
+    display: block;
+    padding-right: 2.5rem;
+}
+
+ul#blog>li>* {
+    text-align: right;
+}

@@ -1,0 +1,77 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url(//db.onlinewebfonts.com/c/4571adf8e6d8270ea61a4f43a3ef31d2?family=Departure+Mono);
+@import url(//db.onlinewebfonts.com/c/55060f0828b456a82324a0d64fa1b640?family=JetBrains+Mono);
+
+/*
+@font-face {
+  font-family: "";
+  font-style: normal;
+  font-weight: normal;
+  src: url("") format(''); // woff2, woff, truetype, opentype, embedded-opentype, svg
+}
+*/
+
+/* Variables */
+
+:root {
+    /* Global */
+    --background-color: #002244;
+    --selection-background-color: #ff00aa;
+    --selection-color: #ffffff;
+    --text-color: #ffffff;
+    --text-font-family: "Departure Mono";
+    --text-font-weight: normal;
+    --text-header-font-weight: bold;
+    --text-link-color: #ff00aa;
+    --text-link-hover-color: #ffffff;
+
+    /* Codes */
+    --code-background-color: #000000;
+    --code-border-color: #000000;
+    --code-text-color: #ffffff;
+    --code-text-font-family: "Departure Mono";
+
+    /* Layout */
+    --line-color: #ffffff;
+
+    /* Components */
+
+    /* Brand */
+    --brand-text-1-size: 3.2rem;
+    --brand-text-2-size: 1.0rem;
+
+    /* Navigation */
+    --navigation-background-color: none;
+    --navigation-border-width: 1px;
+    --navigation-border-style: solid;
+    --navigation-border-color: #ffffff;
+    --navigation-text-color: #ffffff;
+    --navigation-text-font-weight: bold;
+    --navigation-hover-background-color: #ff00aa;
+    --navigation-hover-border-width: 1px;
+    --navigation-hover-border-style: none;
+    --navigation-hover-border-color: #000000;
+    --navigation-hover-text-color: #ffffff;
+    --navigation-hover-text-font-weight: bold;
+    --navigation-active-background-color: #ff00aa;
+    --navigation-active-border-width: 1px;
+    --navigation-active-border-style: none;
+    --navigation-active-border-color: #000000;
+    --navigation-active-box-shadow-1-color: #00ff00;
+    --navigation-active-box-shadow-2-color: #0000ff;
+    --navigation-active-text-color: #ffffff;
+    --navigation-active-text-font-weight: bold;
+    --navigation-active-text-shadow-1-color: #00ff00;
+    --navigation-active-text-shadow-2-color: #0000ff;
+
+    /* Icon Buttons */
+
+    --icon-button-size: 2.4rem;
+    --icon-button-gap: 1.6rem;
+
+    /* https://angel-rs.github.io/css-color-filter-generator/ */
+    --icon-button-filter: brightness(0) saturate(100%) invert(96%) sepia(99%) saturate(4%) hue-rotate(194deg) brightness(104%) contrast(100%);
+    --icon-button-hover-filter: brightness(0) saturate(100%) invert(26%) sepia(99%) saturate(5483%) hue-rotate(308deg) brightness(104%) contrast(123%);
+}

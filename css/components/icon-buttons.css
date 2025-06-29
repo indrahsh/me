@@ -1,0 +1,14 @@
+ul.icon-buttons {
+    display: flex;
+    justify-content: center;
+    gap: var(--icon-button-gap);
+}
+
+ul.icon-buttons>li>a>img {
+    filter: var(--icon-button-filter);
+    width: var(--icon-button-size);
+}
+
+ul.icon-buttons>li>a:hover>img {
+    filter: var(--icon-button-hover-filter);
+}
